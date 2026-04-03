@@ -1,16 +1,18 @@
 package main
+
 import "fmt"
+
+func bintang(n int) string {
+	i := 1
+	if i < n {
+		fmt.Println("")
+	} else {
+		return "*"
+	}
+}
 
 func main() {
 	var n int
 	fmt.Scan(&n)
-	baris(n)
-}
-func baris(bilangan int) {
-	if bilangan == 1 {
-		fmt.Println(1)
-	} else {
-		fmt.Println(bilangan)
-		baris(bilangan - 1)
-	}
+	fmt.Println(bintang(n))
 }
