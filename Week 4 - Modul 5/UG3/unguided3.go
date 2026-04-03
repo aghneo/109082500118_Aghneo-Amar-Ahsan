@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var x, y int
-	fmt.Print("Masukkan nilai x :")
+	fmt.Print("Masukkan nilai x : ")
 	fmt.Scan(&x)
 	fmt.Print("Masukkan nilai y : ")
 	fmt.Scan(&y) 
